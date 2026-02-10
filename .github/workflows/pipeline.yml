@@ -46,5 +46,5 @@ jobs:
       - name: Push Docker image
         if: github.ref == 'refs/heads/main'
         run: |
-          docker tag first-pipeline:latest ghcr.io/${{ github.repository }}:latest
+          docker tag first-pipeline:latest ghcr.io/github.com/the-saftey-hole/holepipeline-supreme/:latest
           docker push ghcr.io/${{ github.repository }}:latest
