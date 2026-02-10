@@ -10,7 +10,7 @@ app.get('/status', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('First Pipeline Challenge - Week 4 GET REKT EVRY OTHER TEAM');
+  res.send('First Pipeline Challenge - Week 4 GET REKT EVRY OTHER TEAM\nNEW LINE I AM SO COOL');
 });
 
 app.listen(PORT, () => {
