@@ -11,6 +11,11 @@ app.get('/status', (req, res) => {
 
 app.get('/', (req, res) => {
   res.send('First Pipeline Challenge - Week 4 GET REKT EVRY OTHER TEAM<br>NEW LINE I AM SO COOL');
+  res.send(' __          __               __              __ ');
+  res.send('/_  \ /\ _\ \   /\  \      /\ _\ \   /\   \   /\ \       /\  __\ ');
+  res.send('//\ / \ \   \  \ \  \      \ \   \  \ \ /\ \  \ \ _  \ \  \ ');
+  res.send('   \ _\  \ _\ _\  \ ___\     \ _\ _\  \ _\  \ _\  \ _\ ');
+  res.send('    //   ////   //      ////   //   //   /_/ ');
 });
 
 app.listen(PORT, () => {
