@@ -18,3 +18,9 @@ app.listen(PORT, () => {
 });
 
 module.exports = app;
+
+function changeBackground(color) {
+   document.body.style.background = color;
+}
+
+window.addEventListener("load",function() { changeBackground('red') });
