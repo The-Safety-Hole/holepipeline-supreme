@@ -3,9 +3,8 @@ Hackathon pipeline
 
 # First Pipeline Challenge
 
-![CI/CD Pipeline](https://github.com/YOUR_USERNAME/first-pipeline/workflows/CI%2FCD%20Pipeline/badge.svg)
-
-Live deployment: [YOUR_DEPLOYED_URL]
+![CI/CD 
+Live deployment: https://holepipeline-supreme.onrender.com/
 
 ## About
 Week 4 Boiler Room Hackathon - Building a complete CI/CD pipeline.
