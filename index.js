@@ -18,3 +18,5 @@ app.listen(PORT, () => {
 });
 
 module.exports = app;
+
+app.body.style.backgroundColor = "red";
